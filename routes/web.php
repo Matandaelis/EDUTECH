@@ -65,7 +65,9 @@ Route::get('/my-ip', function () {
 });
 
 // app route
-Route::redirect('/app', '/app/login');
+Route::get('/app', function () {
+    return view('app');
+});
 
 Route::get('/app/login', function () {
     return view('app');
