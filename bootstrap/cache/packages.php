@@ -1,4 +1,15 @@
 <?php return array (
+  'barryvdh/laravel-debugbar' => 
+  array (
+    'aliases' => 
+    array (
+      'Debugbar' => 'Barryvdh\\Debugbar\\Facades\\Debugbar',
+    ),
+    'providers' => 
+    array (
+      0 => 'Barryvdh\\Debugbar\\ServiceProvider',
+    ),
+  ),
   'intervention/image' => 
   array (
     'aliases' => 
@@ -8,6 +19,13 @@
     'providers' => 
     array (
       0 => 'Intervention\\Image\\ImageServiceProvider',
+    ),
+  ),
+  'laravel/boost' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Boost\\BoostServiceProvider',
     ),
   ),
   'laravel/folio' => 
@@ -26,6 +44,24 @@
     'providers' => 
     array (
       0 => 'Laravel\\Horizon\\HorizonServiceProvider',
+    ),
+  ),
+  'laravel/mcp' => 
+  array (
+    'aliases' => 
+    array (
+      'Mcp' => 'Laravel\\Mcp\\Facades\\Mcp',
+    ),
+    'providers' => 
+    array (
+      0 => 'Laravel\\Mcp\\Server\\McpServiceProvider',
+    ),
+  ),
+  'laravel/roster' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Roster\\RosterServiceProvider',
     ),
   ),
   'laravel/sanctum' => 
@@ -119,6 +155,13 @@
       0 => 'Carbon\\Laravel\\ServiceProvider',
     ),
   ),
+  'nunomaduro/collision' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
+    ),
+  ),
   'nunomaduro/termwind' => 
   array (
     'providers' => 
@@ -135,6 +178,13 @@
     'providers' => 
     array (
       0 => 'Opcodes\\LogViewer\\LogViewerServiceProvider',
+    ),
+  ),
+  'pestphp/pest-plugin-laravel' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Pest\\Laravel\\PestServiceProvider',
     ),
   ),
   'socialiteproviders/manager' => 
@@ -156,6 +206,17 @@
     'providers' => 
     array (
       0 => 'Spatie\\Backup\\BackupServiceProvider',
+    ),
+  ),
+  'spatie/laravel-ignition' => 
+  array (
+    'aliases' => 
+    array (
+      'Flare' => 'Spatie\\LaravelIgnition\\Facades\\Flare',
+    ),
+    'providers' => 
+    array (
+      0 => 'Spatie\\LaravelIgnition\\IgnitionServiceProvider',
     ),
   ),
   'spatie/laravel-permission' => 
